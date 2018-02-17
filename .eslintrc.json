@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "plugin:angular/johnpapa"],
+  "plugins": ["angular"],
+  "rules": {
+    "angular/controller_name": 0,
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "trailingComma": "es5" }
+    ]
+  }
+}
